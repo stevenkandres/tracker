@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Test</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Details</h1>
+        <section class="group">
+            <div class="field-half">
+                <label for="name">Name</label>
+                <input name="name" type="text">
+            </div>
+            <div class="field-half">
+                <label for="num">Member Number</label>
+                <input name="num" type="text">
+            </div>
+            <div class="field-half">
+                <label for="">Account Number</label>
+                <input type="text">
+            </div>
+            <div class="field-half">
+                <label for="">Date</label>
+                <input type="text">
+            </div>
+        </section>
+
+        <h1>Amounts</h1>
+
+        <section class="group">
+            <div class="field-half">
+                <label for="">Amount</label>
+                <input type="text">
+            </div>
+            <div class="field-half">
+                <label for="">Refinanced Funds</label>
+                <input type="text">
+            </div>
+            <div class="field-half">
+                <label for="">New Funds</label>
+                <input type="text">
+            </div>
+
+        </section>
+
+        <!-- checkboxes -->
+        <section class="group">
+            <div class="field-half">
+                <label for="">Broker</label>
+                <input name="broker-cb" class="broker-cb" type="checkbox">
+            </div>
+        </section>
+
+        <section class="group hidden" id="broker-grp">
+            <div class="field-full">
+                <h3>Broker</h3>
+            </div>
+            <div class="field-half">
+                <label for="">broker name</label>
+                <input type="text">
+            </div>
+            <div class="field-half">
+                <label for="">broker fee</label>
+                <input type="number">
+            </div>
+        </section>
+
+        <section class="group">
+            <div class="field-half">
+                <label for="">Commercial</label>
+                <input name="comm-cb" class="comm-cb" type="checkbox">
+            </div>
+        </section>
+
+        <section class="group hidden" id="comm-grp">
+            <div class="field-full">
+                <h3>Commercial</h3>
+            </div>
+            <div class="field-half">
+                <label for="">LTR $ Approved</label>
+                <input type="text">
+            </div>
+            <div class="field-half">
+                <label for="">LTR Date Approved</label>
+                <input type="number">
+            </div>
+            <div class="field-half">
+                <label for="">LTR Agg</label>
+                <input type="number">
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
