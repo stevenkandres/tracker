@@ -1,0 +1,34 @@
+/*
+
+Home Page
+Intranet
+- Forms
+- Policies / Procedures
+- Memos
+- News
+- Staff Directory
+Daily Journal
+- Main
+- Summary (show current numbers, reminders, referrals received, etc)
+- Lending__Main
+- - Lending__Mortgage
+- - Lending__Loan
+- - Lending__LOC
+- - Lending__SkipPayment
+- - Lending__LOC_Review
+- - Lending__Collateral
+- Deposit__Main
+- Referral__Main
+- - Referral__Send
+- - Referral__Receive
+- CreditCard__Main
+- BusinessDevelopment__Main
+- Email__Main
+- Membership__Main
+- Outage__Main
+- - Outage__MSR
+- - Outage__Machine
+- Training__Main
+- Reminder__Main
+
+*/
